@@ -9,8 +9,8 @@ services:
       - MYSQL_ROOT_PASSWORD=
       - MYSQL_ALLOW_EMPTY_PASSWORD=true
       - MYSQL_USER=petclinic
-      - MYSQL_PASSWORD=petclinic
-      - MYSQL_DATABASE=petclinic
+      - MYSQL_PASSWORD=petcliniccloud
+      - MYSQL_DATABASE=petcliniccloud
     volumes:
       - "./conf.d:/etc/mysql/conf.d:ro"
     profiles:
